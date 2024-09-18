@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                int num = Integer.parseInt(counter.getText().toString())+1;
+                int num = counter.getText().toString()+1;
 
                 counter.setText(String.valueOf(num));
             }
